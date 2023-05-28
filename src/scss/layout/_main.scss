@@ -1,8 +1,106 @@
+body {
+  background-color: $title-color;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
 
   a {
     color: hsl(228, 45%, 44%);
+  }
+}
+
+.card-wrapper {
+  display: flex;
+  max-width: 920px;
+  width: 100%;
+
+  .margin {
+    margin-top: 83px;
+  }
+
+  .sedans-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    padding: 48px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: $sedans-bg;
+
+    img {
+      width: 64px;
+    }
+
+    .sedans-title {
+      color: $title-color;
+      margin-top: 35px;
+    }
+
+    .sedans-p {
+      color: $paragraph-color;
+      margin-top: 25px;
+    }
+  }
+
+  .suvs-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    padding: 48px;
+    background-color: $suvs-bg;
+
+    img {
+      width: 64px;
+    }
+
+    .suvs-title {
+      color: $title-color;
+      margin-top: 35px;
+    }
+
+    .suvs-p {
+      color: $paragraph-color;
+      margin-top: 25px;
+    }
+  }
+
+  .luxury-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    padding: 48px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: $luxury-bg;
+
+    img {
+      width: 64px;
+    }
+
+    .luxury-title {
+      color: $title-color;
+      margin-top: 35px;
+    }
+
+    .luxury-p {
+      color: $paragraph-color;
+      margin-top: 25px;
+    }
   }
 }

@@ -1,0 +1,60 @@
+.btn1 {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.93rem;
+  line-height: 25px;
+  padding: 11px 31.5px 12px 31.5px;
+  max-width: 146px;
+  border-radius: 25px;
+  background-color: $title-color;
+  color: $sedans-bg;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  border: 2px solid $paragraph-color;
+  color: white;
+  transition: 0.4s;
+}
+
+.btn2 {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.93rem;
+  line-height: 25px;
+  padding: 11px 31.5px 12px 31.5px;
+  max-width: 146px;
+  border-radius: 25px;
+  background-color: $title-color;
+  color: $suvs-bg;
+}
+
+.btn2:hover {
+  background-color: transparent;
+  border: 2px solid $paragraph-color;
+  color: white;
+  transition: 0.4s;
+}
+
+.btn3 {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.93rem;
+  line-height: 25px;
+  padding: 11px 31.5px 12px 31.5px;
+  max-width: 146px;
+  border-radius: 25px;
+  background-color: $title-color;
+  color: $luxury-bg;
+}
+
+.btn3:hover {
+  background-color: transparent;
+  border: 2px solid $paragraph-color;
+  color: white;
+  transition: 0.4s;
+  font-size: 0.93rem;
+}
