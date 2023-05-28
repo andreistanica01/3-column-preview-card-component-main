@@ -1,0 +1,14 @@
+// USING THE 7-1 SASS ARCHITECTURE
+
+// Abstracts
+@import 'abstracts/variables.scss';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+
+// Components
+@import 'components/button';
+
+// Layout
+@import 'layout/main';
